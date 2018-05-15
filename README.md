@@ -21,20 +21,28 @@ alfresco_1     | May 15, 2018 11:03:22 AM org.apache.catalina.startup.Catalina s
 alfresco_1     | INFO: Server startup in 70314 ms
 ```
 
-Persistence data folders (`alf_data`, `mariadb_data` & `solr_data`) will be created in the root folder.
+Persistence data folders (`alf_data`, `mariadb_data` & `solr_data`) will be created in `data` folder.
 
 ```bash
-$ tree -L 1
+$ tree -L 2
 .
-├── README.md
 ├── adf
-├── alf_data
+│   ├── Dockerfile
+│   └── assets
 ├── alfresco
+│   ├── Dockerfile
+│   └── assets
+├── data
+│   ├── alf_data
+│   ├── mariadb_data
+│   └── solr_data
 ├── docker-compose.yml
 ├── httpd
-├── mariadb_data
-├── share
-└── solr_data
+│   ├── Dockerfile
+│   └── assets
+└── share
+    ├── Dockerfile
+    └── assets
 ```
 
 Persistent data folders path can be changed by modifying local paths set in `volumes` directives at `docker-compose.yml` to global paths
@@ -116,9 +124,7 @@ $ docker-compose up
 In order to remove working data, you can remove all persistent folders.
 
 ```bash
-$ rm -rf alf_data
-$ rm -rf mariadb_data
-$ rm -rf solr_data
+$ rm -rf data
 ```
 
 After this operation all the changes in your data will be lost!
