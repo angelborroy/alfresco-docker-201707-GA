@@ -1,0 +1,136 @@
+{
+  "name": "alfresco-content-app",
+  "version": "1.2.0",
+  "dependencies": {
+    "@alfresco/adf-content-services": {
+      "version": "2.3.0",
+      "from": "@alfresco/adf-content-services@2.3.0",
+      "resolved": "https://registry.npmjs.org/@alfresco/adf-content-services/-/adf-content-services-2.3.0.tgz"
+    },
+    "@alfresco/adf-core": {
+      "version": "2.3.0",
+      "from": "@alfresco/adf-core@2.3.0",
+      "resolved": "https://registry.npmjs.org/@alfresco/adf-core/-/adf-core-2.3.0.tgz"
+    },
+    "@angular/animations": {
+      "version": "5.1.1",
+      "from": "@angular/animations@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/animations/-/animations-5.1.1.tgz"
+    },
+    "@angular/cdk": {
+      "version": "5.0.1",
+      "from": "@angular/cdk@5.0.1",
+      "resolved": "https://registry.npmjs.org/@angular/cdk/-/cdk-5.0.1.tgz"
+    },
+    "@angular/common": {
+      "version": "5.1.1",
+      "from": "@angular/common@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/common/-/common-5.1.1.tgz"
+    },
+    "@angular/compiler": {
+      "version": "5.1.1",
+      "from": "@angular/compiler@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/compiler/-/compiler-5.1.1.tgz"
+    },
+    "@angular/core": {
+      "version": "5.1.1",
+      "from": "@angular/core@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/core/-/core-5.1.1.tgz"
+    },
+    "@angular/flex-layout": {
+      "version": "2.0.0-beta.12",
+      "from": "@angular/flex-layout@2.0.0-beta.12",
+      "resolved": "https://registry.npmjs.org/@angular/flex-layout/-/flex-layout-2.0.0-beta.12.tgz"
+    },
+    "@angular/forms": {
+      "version": "5.1.1",
+      "from": "@angular/forms@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/forms/-/forms-5.1.1.tgz"
+    },
+    "@angular/http": {
+      "version": "5.1.1",
+      "from": "@angular/http@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/http/-/http-5.1.1.tgz"
+    },
+    "@angular/material": {
+      "version": "5.0.1",
+      "from": "@angular/material@5.0.1",
+      "resolved": "https://registry.npmjs.org/@angular/material/-/material-5.0.1.tgz"
+    },
+    "@angular/material-moment-adapter": {
+      "version": "5.0.1",
+      "from": "@angular/material-moment-adapter@5.0.1",
+      "resolved": "https://registry.npmjs.org/@angular/material-moment-adapter/-/material-moment-adapter-5.0.1.tgz"
+    },
+    "@angular/platform-browser": {
+      "version": "5.1.1",
+      "from": "@angular/platform-browser@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-5.1.1.tgz"
+    },
+    "@angular/platform-browser-dynamic": {
+      "version": "5.1.1",
+      "from": "@angular/platform-browser-dynamic@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.1.1.tgz"
+    },
+    "@angular/router": {
+      "version": "5.1.1",
+      "from": "@angular/router@5.1.1",
+      "resolved": "https://registry.npmjs.org/@angular/router/-/router-5.1.1.tgz"
+    },
+    "@mat-datetimepicker/core": {
+      "version": "1.0.1",
+      "from": "@mat-datetimepicker/core@1.0.1",
+      "resolved": "https://registry.npmjs.org/@mat-datetimepicker/core/-/core-1.0.1.tgz"
+    },
+    "@mat-datetimepicker/moment": {
+      "version": "1.0.1",
+      "from": "@mat-datetimepicker/moment@1.0.1",
+      "resolved": "https://registry.npmjs.org/@mat-datetimepicker/moment/-/moment-1.0.1.tgz"
+    },
+    "@ngx-translate/core": {
+      "version": "9.1.1",
+      "from": "@ngx-translate/core@9.1.1",
+      "resolved": "https://registry.npmjs.org/@ngx-translate/core/-/core-9.1.1.tgz"
+    },
+    "alfresco-js-api": {
+      "version": "2.3.0",
+      "from": "alfresco-js-api@2.3.0",
+      "resolved": "https://registry.npmjs.org/alfresco-js-api/-/alfresco-js-api-2.3.0.tgz"
+    },
+    "core-js": {
+      "version": "2.5.3",
+      "from": "core-js@2.5.3",
+      "resolved": "https://registry.npmjs.org/core-js/-/core-js-2.5.3.tgz"
+    },
+    "hammerjs": {
+      "version": "2.0.8",
+      "from": "hammerjs@2.0.8",
+      "resolved": "https://registry.npmjs.org/hammerjs/-/hammerjs-2.0.8.tgz"
+    },
+    "moment-es6": {
+      "version": "1.0.0",
+      "from": "moment-es6@1.0.0",
+      "resolved": "https://registry.npmjs.org/moment-es6/-/moment-es6-1.0.0.tgz"
+    },
+    "pdfjs-dist": {
+      "version": "2.0.303",
+      "from": "pdfjs-dist@2.0.303",
+      "resolved": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-2.0.303.tgz"
+    },
+    "rxjs": {
+      "version": "5.5.2",
+      "from": "rxjs@5.5.2",
+      "resolved": "https://registry.npmjs.org/rxjs/-/rxjs-5.5.2.tgz"
+    },
+    "web-animations-js": {
+      "version": "2.3.1",
+      "from": "web-animations-js@2.3.1",
+      "resolved": "https://registry.npmjs.org/web-animations-js/-/web-animations-js-2.3.1.tgz"
+    },
+    "zone.js": {
+      "version": "0.8.20",
+      "from": "zone.js@0.8.20",
+      "resolved": "https://registry.npmjs.org/zone.js/-/zone.js-0.8.20.tgz"
+    }
+  }
+}

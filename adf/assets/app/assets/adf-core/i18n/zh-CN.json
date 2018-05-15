@@ -1,0 +1,266 @@
+{
+  "FORM": {
+    "START_FORM": {
+      "TITLE": "启动表单"
+    },
+    "PREVIEW": {
+      "IMAGE_NOT_AVAILABLE": "预览不可用"
+    },
+    "FIELD": {
+      "LOCALSTORAGE": "本地存储",
+      "SOURCE": "来源选自 ",
+      "SHOW_FILE": "显示",
+      "DOWNLOAD_FILE": "下载",
+      "REMOVE_FILE": "删除",
+      "UPLOAD": "上传",
+      "REQUIRED": "*必需",
+      "VALIDATOR": {
+        "INVALID_NUMBER": "使用其他数字格式",
+        "INVALID_DATE": "使用其他日期格式",
+        "INVALID_VALUE": "使用其他值",
+        "NOT_GREATER_THAN": "不能大于 {{ maxValue }}",
+        "NOT_LESS_THAN": "不能小于 {{ minValue }}",
+        "AT_LEAST_LONG": "至少输入 {{ minLength }} 个字符",
+        "NO_LONGER_THAN": "输入不超过 {{ maxLength }} 个字符"
+      }
+    }
+  },
+  "CORE": {
+    "FILE_SIZE": {
+      "BYTES": "字节",
+      "KB": "KB",
+      "MB": "MB",
+      "GB": "GB",
+      "TB": "TB",
+      "PB": "PB",
+      "EB": "EB",
+      "ZB": "ZB",
+      "YB": "YB"
+    },
+    "PAGINATION": {
+      "ITEMS_RANGE": "显示 {{range}}/{{total}}",
+      "ITEMS_PER_PAGE": "每页的项目",
+      "CURRENT_PAGE": "第 {{number}} 页",
+      "TOTAL_PAGES": "/共 {{total}} 页"
+    },
+    "DIALOG": {
+      "DOWNLOAD_ZIP": {
+        "ACTIONS": {
+          "CANCEL": "取消"
+        },
+        "TITLE": "添加文件至 zip，此操作需要数分钟时间"
+      }
+    },
+    "FILE_DIALOG": {
+      "FILE_LOCK": "锁定文件",
+      "ALLOW_OTHERS_CHECKBOX": "允许所有者修改此文件",
+      "FILE_LOCK_CHECKBOX": "锁定文件",
+      "TIME_LOCK_CHECKBOX": "锁定时间",
+      "SAVE_BUTTON": {
+        "LABEL": "保存"
+      },
+      "CANCEL_BUTTON": {
+        "LABEL": "取消"
+      }
+    },
+    "FOLDER_DIALOG": {
+      "CREATE_FOLDER_TITLE": "新建文件夹",
+      "EDIT_FOLDER_TITLE": "编辑文件夹",
+      "FOLDER_NAME": {
+        "LABEL": "名称",
+        "ERRORS": {
+          "REQUIRED": "需要文件夹名称",
+          "SPECIAL_CHARACTERS": "文件夹名称不能包含 * \" < > \\ / ? : | 字符",
+          "ENDING_DOT": "文件夹名称不能以句点结尾 。",
+          "ONLY_SPACES": "文件夹名称不能只包含空格"
+        }
+      },
+      "FOLDER_DESCRIPTION": {
+        "LABEL": "说明"
+      },
+      "CREATE_BUTTON": {
+        "LABEL": "创建"
+      },
+      "UPDATE_BUTTON": {
+        "LABEL": "更新"
+      },
+      "CANCEL_BUTTON": {
+        "LABEL": "取消"
+      }
+    },
+    "MESSAGES": {
+      "ERRORS": {
+        "GENERIC": "此操作未成功，请重试或联系您的 IT 团队。",
+        "EXISTENT_FOLDER": "存在使用此名称的文件夹。请尝试使用其他名称。"
+      }
+    },
+    "RESTORE_NODE": {
+      "VIEW": "查看",
+      "PARTIAL_PLURAL": "{{ number }} 个项目无法恢复，因为恢复位置存在问题",
+      "NODE_EXISTS": "无法恢复，{{ name }} 项目已存在",
+      "LOCATION_MISSING": "无法恢复 {{ name }} 项目，原位置不存在",
+      "GENERIC": "恢复 {{ name }} 项目时出现问题",
+      "PLURAL": "成功恢复",
+      "SINGULAR": "{{ name }} 项目已恢复"
+    },
+    "DELETE_NODE": {
+      "SINGULAR": "{{ name }} 已删除",
+      "PLURAL": "{{ number }} 个项目已删除",
+      "PARTIAL_SINGULAR": "已删除 {{ success }} 项目，{{ failed }} 无法删除",
+      "PARTIAL_PLURAL": "已删除 {{ success }} 项目，{{ failed }} 无法删除",
+      "ERROR_SINGULAR": "{{ name }} 无法删除",
+      "ERROR_PLURAL": "{{ number }} 个项目无法删除"
+    },
+    "HOST_SETTINGS": {
+      "CS_URL_ERROR": "Content Services 地址与 URL 格式不匹配",
+      "PS_URL_ERROR": "Process Services 地址与 URL 格式不匹配",
+      "TITLE": "设置",
+      "CS-HOST": "Content Services URL",
+      "BP-HOST": "Process Services URL",
+      "BACK": "返回",
+      "APPLY": "应用",
+      "NOT_VALID": "http(s)://host|ip:port(/path) 无法识别，请使用其他 URL。"
+    },
+    "CARDVIEW": {
+      "VALIDATORS": {
+        "FLOAT_VALIDATION_ERROR": "使用数字格式",
+        "INT_VALIDATION_ERROR": "使用整数格式"
+      }
+    },
+    "METADATA": {
+      "BASIC": {
+        "HEADER": "属性",
+        "NAME": "名称",
+        "TITLE": "标题",
+        "DESCRIPTION": "说明",
+        "AUTHOR": "作者",
+        "MIMETYPE": "MIME 类型",
+        "SIZE": "字号(&S)",
+        "CREATOR": "创建者",
+        "CREATED_DATE": "创建日期",
+        "MODIFIER": "修改者",
+        "MODIFIED_DATE": "修改日期"
+      },
+      "ACTIONS": {
+        "EDIT": "编辑",
+        "SAVE": "保存",
+        "CANCEL": "取消",
+        "TOGGLE": "切换值"
+      }
+    }
+  },
+  "COMMENTS": {
+    "NONE": "无注释",
+    "ADD": "添加注释",
+    "HEADER": "评论 ({{ count }})",
+    "CREATED_BY_HEADER": "创建者",
+    "MESSAGE_HEADER": "消息",
+    "DIALOG": {
+      "TITLE": "新增评论",
+      "LABELS": {
+        "MESSAGE": "消息"
+      },
+      "BUTTON": {
+        "ADD": "添加注释",
+        "CANCEL": "取消"
+      }
+    }
+  },
+  "LOGIN": {
+    "LOGO": "Alfresco",
+    "LABEL": {
+      "LOGIN": "登录",
+      "USERNAME": "用户名",
+      "PASSWORD": "密码",
+      "REMEMBER": "记住用户名和密码"
+    },
+    "MESSAGES": {
+      "USERNAME-REQUIRED": "必需",
+      "USERNAME-MIN": "您的用户名需要至少 {{minLenght}} 个字符。",
+      "PASSWORD-REQUIRED": "输入登录密码",
+      "LOGIN-ERROR-CREDENTIALS": "您已输入未知用户名或密码",
+      "LOGIN-ERROR-PROVIDERS": "提供商未定义",
+      "LOGIN-ERROR-CORS": "CORS 异常，检查您的服务器配置",
+      "LOGIN-ERROR-CSRF": "CSRF 异常，设置 [disableCsrf]=\"true\" in login.component",
+      "LOGIN-ECM-LICENSE": "Alfresco Content Services 存储库为只读模式"
+    },
+    "BUTTON": {
+      "LOGIN": "登录",
+      "CHECKING": "正在检验",
+      "WELCOME": "欢迎使用"
+    },
+    "ACTION": {
+      "HELP": "是否需要帮助？",
+      "REGISTER": "注册"
+    }
+  },
+  "ADF-DATATABLE": {
+    "EMPTY": {
+      "HEADER": "此列表为空",
+      "DRAG-AND-DROP": {
+        "TITLE": "拖放",
+        "SUBTITLE": "要上传文件"
+      }
+    }
+  },
+  "USER_PROFILE": {
+    "LABELS": {
+      "ECM": {
+        "JOB_TITLE": "作业标题"
+      },
+      "BPM": {
+        "TENANT": "租户"
+      }
+    },
+    "TAB": {
+      "CS": "Content Services",
+      "PS": "Process Services"
+    }
+  },
+  "ADF_VIEWER": {
+    "ACTIONS": {
+      "BACK": "返回",
+      "OPEN_WITH": "打开方式",
+      "DOWNLOAD": "下载",
+      "PRINT": "打印",
+      "SHARE": "共享",
+      "MORE_ACTIONS": "更多操作",
+      "INFO": "信息",
+      "FULLSCREEN": "激活全屏模式",
+      "CLOSE": "关闭",
+      "NEXT_FILE": "下一个文件",
+      "PREV_FILE": "上一个文件"
+    },
+    "ARIA": {
+      "PREVIOUS_PAGE": "上一页",
+      "NEXT_PAGE": "下一页",
+      "ZOOM_IN": "放大",
+      "ZOOM_OUT": "缩小",
+      "FIT_PAGE": "符合页面",
+      "ROTATE_LEFT": "向左旋转",
+      "ROTATE_RIGHT": "向右旋转",
+      "RESET": "重置"
+    },
+    "PAGE_LABEL": {
+      "SHOWING": "正在显示",
+      "OF": "/"
+    },
+    "LOADING": "正在加载",
+    "UNKNOWN_FORMAT": "无法加载预览",
+    "SIDEBAR": {
+      "THUMBNAILS": {
+        "PAGE": "第 {{ pageNum }} 页"
+      },
+      "METADATA": {
+        "MORE_INFORMATION": "更多信息",
+        "LESS_INFORMATION": "更少信息"
+      }
+    },
+    "PDF_DIALOG": {
+      "SUBMIT": "提交",
+      "CLOSE": "关闭",
+      "PLACEHOLDER": "密码",
+      "ERROR": "密码错误"
+    }
+  }
+}

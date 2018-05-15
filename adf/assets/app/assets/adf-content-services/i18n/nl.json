@@ -1,0 +1,241 @@
+{
+  "ADF_VERSION_LIST": {
+    "ACTIONS": {
+      "RESTORE": "Herstellen",
+      "DELETE": "Verwijderen",
+      "DOWNLOAD": "Downloaden",
+      "UPLOAD": {
+        "TITLE": "Nieuwe versie uploaden",
+        "TOOLTIP": "Beperking: u moet een bestand met dezelfde naam uploaden om een nieuwe versie van het bestand te maken"
+      }
+    },
+    "CONFIRM_DELETE": {
+      "TITLE": "Versie verwijderen",
+      "MESSAGE": "Verwijderde bestandsversies kunnen niet worden hersteld. Doorgaan?",
+      "YES_LABEL": "Ja",
+      "NO_LABEL": "Nee"
+    }
+  },
+  "ADF_CONFIRM_DIALOG": {
+    "TITLE": "Bevestigen",
+    "ACTION": "Wilt u doorgaan?",
+    "YES_LABEL": "Ja",
+    "NO_LABEL": "Nee"
+  },
+  "ADF-DOCUMENT-LIST": {
+    "EMPTY": {
+      "HEADER": "Deze map is leeg"
+    },
+    "NO_PERMISSION": "U hebt geen rechten voor het weergeven van dit bestand of deze map.",
+    "LAYOUT": {
+      "CREATED": "Gemaakt",
+      "THUMBNAIL": "Miniatuur",
+      "NAME": "Naam",
+      "LOCATION": "Locatie",
+      "SIZE": "Grootte",
+      "DELETED_ON": "Verwijderd",
+      "DELETED_BY": "Verwijderd door",
+      "STATUS": "Status",
+      "MODIFIED_ON": "Aangepast",
+      "MODIFIED_BY": "Aangepast door",
+      "SHARED_BY": "Gedeeld door",
+      "LOAD_MORE": "Meer laden"
+    },
+    "MENU_ACTIONS": {
+      "VIEW": "Weergeven",
+      "REMOVE": "Verwijderen",
+      "DOWNLOAD": "Downloaden"
+    }
+  },
+  "ALFRESCO_DOCUMENT_LIST": {
+    "BUTTON": {
+      "ACTION_CREATE": "Maken...",
+      "ACTION_NEW_FOLDER": "Nieuwe map",
+      "CREATE": "Maken",
+      "CANCEL": "Annuleren"
+    }
+  },
+  "DROPDOWN": {
+    "PLACEHOLDER_LABEL": "Lijst met sites",
+    "MY_FILES_OPTION": "Mijn bestanden"
+  },
+  "NODE_SELECTOR": {
+    "CANCEL": "Annuleren",
+    "CHOOSE": "Kiezen",
+    "COPY": "Kopiëren",
+    "COPY_ITEM": "'{{ name }}' kopiëren naar...",
+    "MOVE": "Verplaatsen",
+    "MOVE_ITEM": "'{{ name }}' verplaatsen naar...",
+    "NO_RESULTS": "Geen resultaten gevonden",
+    "SEARCH": "Zoeken",
+    "SEARCH_RESULTS": "Zoekresultaten",
+    "SELECT_LOCATION": "Locatie selecteren"
+  },
+  "OPERATION": {
+    "SUCCES": {
+      "CONTENT": {
+        "COPY": "Kopiëren geslaagd",
+        "MOVE": "Verplaatsen geslaagd"
+      },
+      "FOLDER": {
+        "COPY": "Kopiëren geslaagd",
+        "MOVE": "Verplaatsen geslaagd"
+      }
+    },
+    "ERROR": {
+      "CONFLICT": "Deze naam wordt al gebruikt, probeer een andere naam.",
+      "UNKNOWN": "De actie is mislukt. Probeer het opnieuw of neem contact op met het IT-team.",
+      "PERMISSION": "U beschikt niet over de benodigde toegang om dit te doen."
+    }
+  },
+  "TAG": {
+    "LABEL": {
+      "NEWTAG": "Nieuwe tag"
+    },
+    "MESSAGES": {
+      "EXIST": "Tag bestaat al"
+    },
+    "BUTTON": {
+      "ADD": "Tag toevoegen"
+    }
+  },
+  "ADF_FILE_UPLOAD": {
+    "BUTTON": {
+      "MINIMIZE": "Minimaliseren",
+      "MAXIMIZE": "Maximaliseren",
+      "CLOSE": "Sluiten",
+      "CANCEL_ALL": "Uploads annuleren",
+      "CANCEL_FILE": "Uploaden annuleren",
+      "REMOVE_FILE": "Geüpload bestand verwijderen"
+    },
+    "STATUS": {
+      "FILE_CANCELED_STATUS": "Geannuleerd"
+    },
+    "CONFIRMATION": {
+      "BUTTON": {
+        "CANCEL": "Ja",
+        "CONTINUE": "Nee"
+      },
+      "MESSAGE": {
+        "TITLE": "Uploaden annuleren",
+        "TEXT": "Stop het uploaden en verwijder de bestanden die al zijn geüpload."
+      }
+    }
+  },
+  "FILE_UPLOAD": {
+    "BUTTON": {
+      "UPLOAD_FILE": "Bestand uploaden",
+      "UPLOAD_FOLDER": "Map uploaden"
+    },
+    "VERSION": {
+      "MESSAGES": {
+        "NO_ACCEPTED_FILE_TYPES": "De instelling \"Geaccepteerd bestandstype\" heeft geen gevolgen voor nieuwe versie-uploads. Het bestandstype is gelijk aan dat van het originele bestand.",
+        "INCOMPATIBLE_VERSION": "Alleen een bestand van hetzelfde type kan worden geüpload als een nieuwe versie."
+      }
+    },
+    "MESSAGES": {
+      "UPLOAD_CANCELED": "Uploaden geannuleerd",
+      "UPLOAD_COMPLETED": "{{ completed }} / {{ total }} geüpload",
+      "UPLOAD_PROGRESS": "Uploaden {{ completed }} / {{ total }}",
+      "UPLOAD_ERROR": "{{ total }} upload mislukt",
+      "UPLOAD_ERRORS": "{{ total }} uploads mislukt",
+      "PROGRESS": "Upload wordt uitgevoerd...",
+      "FOLDER_ALREADY_EXIST": "De map {0} bestaat al",
+      "FOLDER_NOT_SUPPORTED": "Het uploaden van mappen wordt niet ondersteund door uw browser, probeer het met een andere browser",
+      "REMOVE_FILE_ERROR": "{{ fileName }} kan niet worden verwijderd, probeer het opnieuw of neem contact op met het IT-team.",
+      "REMOVE_FILES_ERROR": "{{ total }} bestanden kunnen niet worden verwijderd, probeer het opnieuw of neem contact op met het IT-team.",
+      "EXCEED_MAX_FILE_SIZE": "Het bestand {{ fileName }} overschrijdt de toegestane bestandsgrootte"
+    },
+    "ACTION": {
+      "UNDO": "Ongedaan maken"
+    }
+  },
+  "WEBSCRIPT": {
+    "ERROR": "Kan de actie niet voltooien. Geef het volgende bericht door aan het IT-team: Fout bij de deserialisatie van {{data}} als {{contentType}}"
+  },
+  "SEARCH": {
+    "CONTROL": {},
+    "RESULTS": {
+      "SUMMARY": "{{numResults}} resultaat gevonden voor {{searchTerm}}",
+      "NONE": "Geen resultaten gevonden voor {{searchTerm}}",
+      "ERROR": "Er is een probleem opgetreden tijdens het zoeken - probeer het opnieuw.",
+      "COLUMNS": {
+        "NAME": "Getoonde naam",
+        "MODIFIED_BY": "Aangepast door",
+        "MODIFIED_AT": "Aangepast op"
+      }
+    },
+    "ICONS": {
+      "ft_ic_raster_image": "Afbeeldingsbestand",
+      "ft_ic_pdf": "PDF-document",
+      "ft_ic_ms_excel": "Microsoft Excel-bestand",
+      "ft_ic_ms_word": "Microsoft Word-document",
+      "ft_ic_ms_powerpoint": "Microsoft PowerPoint-bestand",
+      "ft_ic_video": "Videobestand",
+      "ft_ic_document": "Documentbestand",
+      "ft_ic_website": "Webresource",
+      "ft_ic_archive": "Archiefbestand",
+      "ft_ic_presentation": "Presentatiebestand",
+      "ft_ic_spreadsheet": "Spreadsheetbestand"
+    },
+    "DOCUMENT_LIST": {
+      "COLUMNS": {
+        "DISPLAY_NAME": "Getoonde naam",
+        "CREATED_BY": "Gemaakt door",
+        "CREATED_ON": "Gemaakt"
+      },
+      "ACTIONS": {
+        "FOLDER": {
+          "DELETE": "Verwijderen",
+          "MOVE": "Verplaatsen",
+          "COPY": "Kopiëren"
+        },
+        "DOCUMENT": {
+          "DOWNLOAD": "Downloaden",
+          "DELETE": "Verwijderen",
+          "MOVE": "Verplaatsen",
+          "COPY": "Kopiëren",
+          "PROCESS_ACTION": "Proces starten"
+        }
+      }
+    }
+  },
+  "PERMISSON": {
+    "LACKOF": "U hebt geen {{permission}} rechten voor het {{action}} van {{type}}"
+  },
+  "METADATA": {
+    "BASIC": {
+      "HEADER": "Eigenschappen",
+      "NAME": "Naam",
+      "TITLE": "Titel",
+      "DESCRIPTION": "Beschrijving",
+      "AUTHOR": "Auteur",
+      "MIMETYPE": "Mimetype",
+      "SIZE": "Grootte",
+      "CREATOR": "Maker",
+      "CREATED_DATE": "Datum gemaakt",
+      "MODIFIER": "Gewijzigd door",
+      "MODIFIED_DATE": "Datum gewijzigd"
+    }
+  },
+  "SHARE": {
+    "TITLE": "Delen",
+    "PUBLIC-LINK": "Openbare koppeling",
+    "UNSHARED": "Bestand niet gedeeld",
+    "DESCRIPTION": "Dit is een koppeling naar uw bestand",
+    "ALERT": "Iedereen heeft toegang tot deze koppeling",
+    "ACTIONS": {
+      "SHARE": "Delen",
+      "CLOSE": "Sluiten",
+      "COPY-LINK": "Koppeling kopiëren"
+    }
+  },
+  "PERMISSION_MANAGER": {
+    "PERMISSION_DISPLAY": {
+      "INHERITED": "Overgenomen",
+      "AUTHORITY_ID": "Autoriteits-id",
+      "ROLE": "Rol",
+      "LOCALLY_SET": "Lokaal ingesteld"
+    }
+  }
+}

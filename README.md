@@ -1,0 +1,1 @@
+# Docker Composition for Alfresco CE 201707-GA

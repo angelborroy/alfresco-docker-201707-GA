@@ -1,0 +1,266 @@
+{
+  "FORM": {
+    "START_FORM": {
+      "TITLE": "Start Form"
+    },
+    "PREVIEW": {
+      "IMAGE_NOT_AVAILABLE": "Preview not available"
+    },
+    "FIELD": {
+      "LOCALSTORAGE" : "Local storage",
+      "SOURCE": "Select source from ",
+      "SHOW_FILE": "Show",
+      "DOWNLOAD_FILE": "Download",
+      "REMOVE_FILE":"Remove",
+      "UPLOAD": "UPLOAD",
+      "REQUIRED": "*Required",
+      "VALIDATOR": {
+        "INVALID_NUMBER": "Use a different number format",
+        "INVALID_DATE": "Use a different date format",
+        "INVALID_VALUE": "Enter a different value",
+        "NOT_GREATER_THAN": "Can't be greater than {{ maxValue }}",
+        "NOT_LESS_THAN": "Can't be less than {{ minValue }}",
+        "AT_LEAST_LONG": "Enter at least {{ minLength }} characters",
+        "NO_LONGER_THAN": "Enter no more than {{ maxLength }} characters"
+      }
+    }
+  },
+  "CORE": {
+    "FILE_SIZE": {
+      "BYTES": "Bytes",
+      "KB": "KB",
+      "MB": "MB",
+      "GB": "GB",
+      "TB": "TB",
+      "PB": "PB",
+      "EB": "EB",
+      "ZB": "ZB",
+      "YB": "YB"
+    },
+    "PAGINATION": {
+      "ITEMS_RANGE": "Showing {{ range }} of {{ total }}",
+      "ITEMS_PER_PAGE": "Items per page",
+      "CURRENT_PAGE": "Page {{ number }}",
+      "TOTAL_PAGES": "of {{ total }}"
+    },
+    "DIALOG": {
+      "DOWNLOAD_ZIP": {
+        "ACTIONS": {
+          "CANCEL": "Cancel"
+        },
+        "TITLE": "Adding files to zip, this could take a few minutes"
+      }
+    },
+    "FILE_DIALOG": {
+      "FILE_LOCK": "Lock file",
+      "ALLOW_OTHERS_CHECKBOX": "Allow the owner to modify this file",
+      "FILE_LOCK_CHECKBOX": "Lock file",
+      "TIME_LOCK_CHECKBOX": "Time lock",
+      "SAVE_BUTTON": {
+        "LABEL": "Save"
+      },
+      "CANCEL_BUTTON": {
+        "LABEL": "Cancel"
+      }
+    },
+    "FOLDER_DIALOG": {
+      "CREATE_FOLDER_TITLE": "Create new folder",
+      "EDIT_FOLDER_TITLE": "Edit folder",
+      "FOLDER_NAME": {
+        "LABEL": "Name",
+        "ERRORS": {
+          "REQUIRED": "Folder name is required",
+          "SPECIAL_CHARACTERS": "Folder name can't contain these characters * \" < > \\ / ? : |",
+          "ENDING_DOT": "Folder name can't end with a period .",
+          "ONLY_SPACES": "Folder name can't contain only spaces"
+        }
+      },
+      "FOLDER_DESCRIPTION": {
+        "LABEL": "Description"
+      },
+      "CREATE_BUTTON": {
+        "LABEL": "Create"
+      },
+      "UPDATE_BUTTON": {
+        "LABEL": "Update"
+      },
+      "CANCEL_BUTTON": {
+        "LABEL": "Cancel"
+      }
+    },
+    "MESSAGES": {
+      "ERRORS": {
+        "GENERIC": "The action was unsuccessful. Try again or contact your IT Team.",
+        "EXISTENT_FOLDER": "There's already a folder with this name. Try a different name."
+      }
+    },
+    "RESTORE_NODE": {
+      "VIEW": "View",
+      "PARTIAL_PLURAL": "{{ number }} items not restored because of issues with the restore location",
+      "NODE_EXISTS": "Can't restore, {{ name }} item already exists",
+      "LOCATION_MISSING": "Can't restore {{ name }} item, the original location no longer exists",
+      "GENERIC": "There was a problem restoring {{ name }} item",
+      "PLURAL": "Restore successful",
+      "SINGULAR": "{{ name }} item restored"
+    },
+    "DELETE_NODE": {
+      "SINGULAR": "{{ name }} deleted",
+      "PLURAL": "{{ number }} items deleted",
+      "PARTIAL_SINGULAR": "Deleted {{ success }} item, {{ failed }} couldn't be deleted",
+      "PARTIAL_PLURAL": "Deleted {{ success }} items, {{ failed }} couldn't be deleted",
+      "ERROR_SINGULAR": "{{ name }} couldn't be deleted",
+      "ERROR_PLURAL": "{{ number }} items couldn't be deleted"
+    },
+    "HOST_SETTINGS": {
+      "CS_URL_ERROR": "Content Services address doesn't match the URL format",
+      "PS_URL_ERROR": "Process Services address doesn't match the URL format",
+      "TITLE": "Settings",
+      "CS-HOST": "Content Services URL",
+      "BP-HOST": "Process Services URL",
+      "BACK": "Back",
+      "APPLY": "APPLY",
+      "NOT_VALID": "http(s)://host|ip:port(/path) not recognized, try a different URL."
+    },
+    "CARDVIEW": {
+      "VALIDATORS": {
+        "FLOAT_VALIDATION_ERROR": "Use a number format",
+        "INT_VALIDATION_ERROR": "Use an integer format"
+      }
+    },
+    "METADATA": {
+      "BASIC": {
+          "HEADER": "Properties",
+          "NAME": "Name",
+          "TITLE": "Title",
+          "DESCRIPTION": "Description",
+          "AUTHOR": "Author",
+          "MIMETYPE": "Mimetype",
+          "SIZE": "Size",
+          "CREATOR": "Creator",
+          "CREATED_DATE": "Created Date",
+          "MODIFIER": "Modifier",
+          "MODIFIED_DATE": "Modified Date"
+      },
+      "ACTIONS": {
+        "EDIT": "Edit",
+        "SAVE": "Save",
+        "CANCEL": "Cancel",
+        "TOGGLE": "Toggle value"
+      }
+    }
+  },
+  "COMMENTS": {
+    "NONE": "No comments",
+    "ADD": "Add a comment",
+    "HEADER": "Comments ({{ count }})",
+    "CREATED_BY_HEADER": "Created by",
+    "MESSAGE_HEADER": "Message",
+    "DIALOG": {
+      "TITLE": "New comment",
+      "LABELS": {
+        "MESSAGE": "Message"
+      },
+      "BUTTON": {
+        "ADD": "Add Comment",
+        "CANCEL": "Cancel"
+      }
+    }
+  },
+  "LOGIN": {
+    "LOGO": "Alfresco",
+    "LABEL": {
+      "LOGIN": "Sign in",
+      "USERNAME": "Username",
+      "PASSWORD": "Password",
+      "REMEMBER": "Remember me"
+    },
+    "MESSAGES": {
+      "USERNAME-REQUIRED": "Required",
+      "USERNAME-MIN": "Your username needs to be at least {{ minLength }} characters.",
+      "PASSWORD-REQUIRED": "Enter your password to sign in",
+      "LOGIN-ERROR-CREDENTIALS": "You've entered an unknown username or password",
+      "LOGIN-ERROR-PROVIDERS": "Providers cannot be undefined",
+      "LOGIN-ERROR-CORS": "CORS exception, check your server configuration",
+      "LOGIN-ERROR-CSRF": "CSRF exception, set [disableCsrf]=\"true\" in login.component",
+      "LOGIN-ECM-LICENSE": "Alfresco Content Services repository is in read-only mode"
+    },
+    "BUTTON": {
+      "LOGIN": "SIGN IN",
+      "CHECKING": "CHECKING",
+      "WELCOME": "WELCOME"
+    },
+    "ACTION": {
+      "HELP": "NEED HELP?",
+      "REGISTER": "REGISTER"
+    }
+  },
+  "ADF-DATATABLE": {
+    "EMPTY": {
+      "HEADER": "This list is empty",
+      "DRAG-AND-DROP": {
+        "TITLE": "Drag and drop",
+        "SUBTITLE": "to upload files"
+      }
+    }
+  },
+  "USER_PROFILE": {
+    "LABELS": {
+      "ECM": {
+        "JOB_TITLE": "Job Title"
+      },
+      "BPM": {
+        "TENANT": "Tenant"
+      }
+    },
+    "TAB": {
+      "CS": "Content Services",
+      "PS": "Process Services"
+    }
+  },
+  "ADF_VIEWER": {
+    "ACTIONS": {
+      "BACK": "Back",
+      "OPEN_WITH": "Open with",
+      "DOWNLOAD": "Download",
+      "PRINT": "Print",
+      "SHARE": "Share",
+      "MORE_ACTIONS": "More actions",
+      "INFO": "Info",
+      "FULLSCREEN": "Activate full-screen mode",
+      "CLOSE": "Close",
+      "NEXT_FILE": "Next File",
+      "PREV_FILE": "Previous File"
+    },
+    "ARIA": {
+      "PREVIOUS_PAGE": "Previous page",
+      "NEXT_PAGE": "Next page",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "FIT_PAGE": "Fit page",
+      "ROTATE_LEFT": "Rotate left",
+      "ROTATE_RIGHT": "Rotate right",
+      "RESET": "Reset"
+    },
+    "PAGE_LABEL": {
+      "SHOWING": "Showing",
+      "OF": "of"
+    },
+    "LOADING": "Loading",
+    "UNKNOWN_FORMAT": "Couldn't load preview",
+    "SIDEBAR": {
+      "THUMBNAILS": {
+        "PAGE": "Page {{ pageNum }}"
+      },
+      "METADATA": {
+          "MORE_INFORMATION": "More information",
+          "LESS_INFORMATION": "Less information"
+      }
+    },
+    "PDF_DIALOG": {
+      "SUBMIT": "Submit",
+      "CLOSE": "Close",
+      "PLACEHOLDER": "Password",
+      "ERROR": "Password is wrong"
+    }
+  }
+}

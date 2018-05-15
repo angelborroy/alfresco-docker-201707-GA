@@ -1,0 +1,241 @@
+{
+  "ADF_VERSION_LIST": {
+    "ACTIONS": {
+      "RESTORE": "Восстановить",
+      "DELETE": "Удалить",
+      "DOWNLOAD": "Скачать",
+      "UPLOAD": {
+        "TITLE": "Отправить новую версию",
+        "TOOLTIP": "Ограничение: загрузите файл с тем же именем, чтобы создать его новую версию"
+      }
+    },
+    "CONFIRM_DELETE": {
+      "TITLE": "Удалить версию",
+      "MESSAGE": "Удаленные версии файла не могут быть восстановлены. Продолжить?",
+      "YES_LABEL": "Да",
+      "NO_LABEL": "Нет"
+    }
+  },
+  "ADF_CONFIRM_DIALOG": {
+    "TITLE": "Подтвердить",
+    "ACTION": "Хотите продолжить?",
+    "YES_LABEL": "Да",
+    "NO_LABEL": "Нет"
+  },
+  "ADF-DOCUMENT-LIST": {
+    "EMPTY": {
+      "HEADER": "Эта папка пуста"
+    },
+    "NO_PERMISSION": "У вас нет разрешения на просмотр этого файла или папки.",
+    "LAYOUT": {
+      "CREATED": "Создано",
+      "THUMBNAIL": "Эскиз",
+      "NAME": "Имя",
+      "LOCATION": "Местоположение",
+      "SIZE": "Размер",
+      "DELETED_ON": "Удаленные",
+      "DELETED_BY": "Удалено пользователем",
+      "STATUS": "Статус",
+      "MODIFIED_ON": "Изменено",
+      "MODIFIED_BY": "Изменено пользователем",
+      "SHARED_BY": "Доступ открыт пользователем",
+      "LOAD_MORE": "Загрузить еще"
+    },
+    "MENU_ACTIONS": {
+      "VIEW": "Посмотреть",
+      "REMOVE": "Удалить",
+      "DOWNLOAD": "Скачать"
+    }
+  },
+  "ALFRESCO_DOCUMENT_LIST": {
+    "BUTTON": {
+      "ACTION_CREATE": "Создать...",
+      "ACTION_NEW_FOLDER": "Новая папка",
+      "CREATE": "Создать",
+      "CANCEL": "Отмена"
+    }
+  },
+  "DROPDOWN": {
+    "PLACEHOLDER_LABEL": "Список сайтов",
+    "MY_FILES_OPTION": "Мои файлы"
+  },
+  "NODE_SELECTOR": {
+    "CANCEL": "Отмена",
+    "CHOOSE": "Выбрать",
+    "COPY": "Копировать",
+    "COPY_ITEM": "Копировать '{{ name }}' в...",
+    "MOVE": "Переместить",
+    "MOVE_ITEM": "Переместить '{{ name }}' в...",
+    "NO_RESULTS": "Результаты не найдены",
+    "SEARCH": "Поиск",
+    "SEARCH_RESULTS": "Результаты поиска",
+    "SELECT_LOCATION": "Выбрать местоположение"
+  },
+  "OPERATION": {
+    "SUCCES": {
+      "CONTENT": {
+        "COPY": "Копирование выполнено",
+        "MOVE": "Перемещение выполнено"
+      },
+      "FOLDER": {
+        "COPY": "Копирование выполнено",
+        "MOVE": "Перемещение выполнено"
+      }
+    },
+    "ERROR": {
+      "CONFLICT": "Это имя уже используется, попробуйте другое.",
+      "UNKNOWN": "Действие не выполнено. Повторите попытку или обратитесь к IT-специалистам.",
+      "PERMISSION": "У вас нет доступа."
+    }
+  },
+  "TAG": {
+    "LABEL": {
+      "NEWTAG": "Новая метка"
+    },
+    "MESSAGES": {
+      "EXIST": "Метка уже существует"
+    },
+    "BUTTON": {
+      "ADD": "Добавить метку"
+    }
+  },
+  "ADF_FILE_UPLOAD": {
+    "BUTTON": {
+      "MINIMIZE": "Свернуть",
+      "MAXIMIZE": "Развернуть",
+      "CLOSE": "Закрыть",
+      "CANCEL_ALL": "Отменить загрузки",
+      "CANCEL_FILE": "Отменить загрузку",
+      "REMOVE_FILE": "Удалить выгруженный файл"
+    },
+    "STATUS": {
+      "FILE_CANCELED_STATUS": "Oтменено"
+    },
+    "CONFIRMATION": {
+      "BUTTON": {
+        "CANCEL": "Да",
+        "CONTINUE": "Нет"
+      },
+      "MESSAGE": {
+        "TITLE": "Отменить выгрузку",
+        "TEXT": "Остановите выгрузку и удалите уже выгруженные файлы."
+      }
+    }
+  },
+  "FILE_UPLOAD": {
+    "BUTTON": {
+      "UPLOAD_FILE": "Выгрузить файл",
+      "UPLOAD_FOLDER": "Выгрузить папку"
+    },
+    "VERSION": {
+      "MESSAGES": {
+        "NO_ACCEPTED_FILE_TYPES": "Обратите внимание: настройка \"acceptedFilesType\" никак не влияет на загрузки новых версий. Тип файла останется таким же, как тип исходного файла.",
+        "INCOMPATIBLE_VERSION": "В качестве новой версии может быть загружен только файл того же типа."
+      }
+    },
+    "MESSAGES": {
+      "UPLOAD_CANCELED": "Выгрузка отменена",
+      "UPLOAD_COMPLETED": "Выгружено {{ completed }} / {{ total }}",
+      "UPLOAD_PROGRESS": "Выгрузка {{ completed }} / {{ total }}",
+      "UPLOAD_ERROR": "Ошибка {{ total }} загрузки",
+      "UPLOAD_ERRORS": "Ошибка {{ total }} выгрузок",
+      "PROGRESS": "Идет выгрузка...",
+      "FOLDER_ALREADY_EXIST": "Папка {0} уже существует",
+      "FOLDER_NOT_SUPPORTED": "Данный браузер не поддерживает загрузку папок, используйте другой браузер",
+      "REMOVE_FILE_ERROR": "Ошибка удаления файла {{ fileName }}, повторите попытку или обратитесь к IT-специалистам.",
+      "REMOVE_FILES_ERROR": "Не удалось удалить следующее количество файлов: {{ total }}. Повторите попытку или обратитесь к IT-специалистам.",
+      "EXCEED_MAX_FILE_SIZE": "Размер файла {{ fileName }} больше допустимого значения"
+    },
+    "ACTION": {
+      "UNDO": "Отменить"
+    }
+  },
+  "WEBSCRIPT": {
+    "ERROR": "Не удалось выполнить действие. Покажите IT-специалистам следующее сообщение: ошибка во время десериализации {{data}} в виде {{contentType}}"
+  },
+  "SEARCH": {
+    "CONTROL": {},
+    "RESULTS": {
+      "SUMMARY": "Найдено результатов по поисковому запросу {{searchTerm}}: {{numResults}}",
+      "NONE": "Не найдено результатов по поисковому запросу {{searchTerm}}",
+      "ERROR": "Возникла проблема во время поиска — повторите попытку.",
+      "COLUMNS": {
+        "NAME": "Отображаемое имя",
+        "MODIFIED_BY": "Изменено пользователем",
+        "MODIFIED_AT": "Изменено"
+      }
+    },
+    "ICONS": {
+      "ft_ic_raster_image": "Файл изображения",
+      "ft_ic_pdf": "Документ в формате PDF",
+      "ft_ic_ms_excel": "Файл Microsoft Excel",
+      "ft_ic_ms_word": "Документ Microsoft Word",
+      "ft_ic_ms_powerpoint": "Файл Microsoft PowerPoint",
+      "ft_ic_video": "Видеофайл",
+      "ft_ic_document": "Файл документа",
+      "ft_ic_website": "Веб-ресурс",
+      "ft_ic_archive": "Архивный файл",
+      "ft_ic_presentation": "Файл презентации",
+      "ft_ic_spreadsheet": "Файл электронной таблицы"
+    },
+    "DOCUMENT_LIST": {
+      "COLUMNS": {
+        "DISPLAY_NAME": "Отображаемое имя",
+        "CREATED_BY": "Создано пользователем",
+        "CREATED_ON": "Создано"
+      },
+      "ACTIONS": {
+        "FOLDER": {
+          "DELETE": "Удалить",
+          "MOVE": "Переместить",
+          "COPY": "Копировать"
+        },
+        "DOCUMENT": {
+          "DOWNLOAD": "Скачать",
+          "DELETE": "Удалить",
+          "MOVE": "Переместить",
+          "COPY": "Копировать",
+          "PROCESS_ACTION": "Начать процесс"
+        }
+      }
+    }
+  },
+  "PERMISSON": {
+    "LACKOF": "У вас нет разрешения {{permission}}, чтобы {{action}} {{type}}"
+  },
+  "METADATA": {
+    "BASIC": {
+      "HEADER": "Свойства",
+      "NAME": "Имя",
+      "TITLE": "Заголовок",
+      "DESCRIPTION": "Описание",
+      "AUTHOR": "Автор",
+      "MIMETYPE": "Тип MIME",
+      "SIZE": "Размер",
+      "CREATOR": "Создатель",
+      "CREATED_DATE": "Дата создания",
+      "MODIFIER": "Редактор",
+      "MODIFIED_DATE": "Дата изменения"
+    }
+  },
+  "SHARE": {
+    "TITLE": "Открыть доступ",
+    "PUBLIC-LINK": "Общедоступная ссылка",
+    "UNSHARED": "Доступ к файлу не открыт",
+    "DESCRIPTION": "Это ссылка на ваш файл",
+    "ALERT": "Получить доступ по этой ссылке может любой",
+    "ACTIONS": {
+      "SHARE": "Открыть доступ",
+      "CLOSE": "Закрыть",
+      "COPY-LINK": "Копировать ссылку"
+    }
+  },
+  "PERMISSION_MANAGER": {
+    "PERMISSION_DISPLAY": {
+      "INHERITED": "Унаследовано",
+      "AUTHORITY_ID": "Идентификатор полномочий",
+      "ROLE": "Роль",
+      "LOCALLY_SET": "Установлено локально"
+    }
+  }
+}
